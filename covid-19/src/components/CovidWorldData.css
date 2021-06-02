@@ -1,0 +1,43 @@
+.country{
+    color: white;
+}
+
+.covid-world-data{
+    font-family: 'Ubuntu', sans-serif;
+    /* border:2px solid red; */
+    width:65%;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    background:rgb(0,0,0,0.4);
+
+}
+
+.lst-update{
+    text-align: left;
+    color: white;
+    font-size: 13px;
+}
+
+.cond-critical{
+    color:white
+}
+
+.cond-recovered{
+    color:green;
+}
+
+.cond-confirmed{
+    color: white;
+}
+.cond-death{
+    color:red;
+}
+
+@media screen and (max-width:500px) {
+    .covid-world-data{
+        width:80%;
+    }
+}

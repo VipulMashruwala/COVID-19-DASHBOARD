@@ -1,0 +1,25 @@
+.search-div{
+    text-align: center;
+}
+.search-data{
+    width: 16rem;
+    height: 20px;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px groove white;
+    background: transparent;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    color: orange;
+    outline: none;
+    font-weight: bold;
+}
+
+
+@media screen and  (max-width: 350px) {
+    .search-data{
+        width: 14rem;
+    }
+ }

@@ -1,0 +1,21 @@
+.chart-header{
+    margin:auto;
+    width: 55%;
+    background:rgb(0,0,0,0.4);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@media screen and  (max-width: 673px) {
+    .chart-header{
+        width: 98%;
+        margin-left: 5px;
+        margin-top: 20px;
+        margin-right: 5px;
+        margin-bottom: 20px;
+        background:rgb(0,0,0,0.4);
+        font-family: 'Ubuntu', sans-serif;
+       
+       
+    }
+}
+

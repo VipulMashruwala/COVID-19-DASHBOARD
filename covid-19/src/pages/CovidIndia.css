@@ -1,0 +1,29 @@
+.covid-data{
+   width: 65%;
+   margin: auto;
+   margin-top: 3rem;
+
+}
+
+::placeholder{
+   color:orange;
+}
+
+.loading-spinner{
+   /* border:2px solid red; */
+   text-align: center;
+   padding:20px;
+   
+   width:30%;
+   background-color:rgb(0,0,0,0.5);
+   border-radius: 20px;
+   margin: auto;
+   margin-top: 5rem;
+}
+
+@media screen and  (max-width: 500px) {
+   .covid-data{
+       width: 90%;
+   }
+}
+

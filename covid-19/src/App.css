@@ -1,0 +1,32 @@
+.body{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('covid.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position:absolute;
+  min-height: 100%;
+  width: 100%;
+  z-index: -1;
+
+} 
+
+.header{
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+.loading-spinner-all{
+  /* border:2px solid red; */
+  text-align: center;
+  padding:20px;
+  width:30%;
+  background-color:rgb(0,0,0,0.5);
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 9rem;
+}
+
+
+

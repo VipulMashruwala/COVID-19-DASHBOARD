@@ -1,0 +1,52 @@
+.items{
+    /* border: 1px solid whitesmoke; */
+    border-radius: 25px;
+    padding: 15px;
+    margin:25px;
+    background:rgb(0,0,0,0.4);
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.state-name{
+    text-align: center;
+    color: white;
+}
+
+.covid-data-in{
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.last-update{
+    font-size: 13px; 
+    color: white;
+    font-weight: bold;
+    
+}
+
+.recovered{
+    color: green;
+}
+
+.death{
+    color:red;
+}
+
+.cond-active{
+    color:white;
+}
+
+.confirmed{
+    color:white;
+}
+
+.district-link{
+    font-family: 'Ubuntu', sans-serif;
+    color:orange;
+    font-weight: bold;
+}
+
+.district-text{
+    text-align:right;
+}
